@@ -17,6 +17,7 @@ tela grande: acima de 1200px
     
     section#login {
         width: 80vw;
+       
     }
     
     section#login > div#imagem {
@@ -62,4 +63,18 @@ div#formulario >h1 {
 
 div#formulario > p {
     font-size: 0.8em;
+}
+
+form > div.campo {
+    background-color: #918368;
+    width: 100%;
+    height: 40px;
+    color: white;
+    display: block;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
 }
